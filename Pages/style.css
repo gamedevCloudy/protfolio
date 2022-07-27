@@ -1,0 +1,38 @@
+body{
+    background-color: #0d0d0d;
+}
+
+.row{
+    display: flex;
+    border-radius: 2%;
+    float: center; 
+    margin: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnNav {
+    display: table-column;
+    float: center;
+    width: 20%;
+    height: 100%;
+    padding: 0.5%;
+    background-color: #643df2;
+    position: absolute;
+    
+}
+
+.columnWide {
+    display:table-column;
+    float: center;
+    width: 65%;
+    padding: 0.5%;
+}
+
+#cont{
+    text-align: center;
+    padding-top: 50%;
+}
